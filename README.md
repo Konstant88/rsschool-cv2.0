@@ -1,1 +1,1 @@
-# rsschool-cv2.0
+https://Konstant88.github.io/rsschool-cv/cv
