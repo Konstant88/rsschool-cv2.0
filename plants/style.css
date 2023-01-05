@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@400;700&display=swap');
+
+body {
+    position: relative;
+    font-size: 16px;
+    min-width: 380px;
+    max-width: 1440px;
+    overflow-x: hidden;
+    height: auto;
+    font-weight: 400;
+    
+}
+a{
+    text-decoration: none;
+}
+.navbar {
+    width: 100%;
+    height: 134px;
+    background: #EDF2EC;
+    padding: 0px;
+}
+.navbar .container{
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.navbar-menu {
+    list-style-type: none;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+.navbar-menu li {
+    display: inline-block;
+    line-height: 50px;
+}
+.navbar-menu li a{
+    display: inline-block;
+    padding-left: 23px;
+    padding-right: 23px;
+    font-family: 'Inika';
+    font-style: normal;;
+    color: #010201;
+}
+.navbar-menu li .home {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    color: #E06733;
+}
+.navbar-wrap {
+    display: flex;
+    flex-flow: row nowrap;
+}
+.navbar-logo-name { 
+ 
+    font-family: 'Inika';
+    
+    color: #000000;
+}
+.navbar-logo {
+    display: inline-flex;
+}
+.navbar-logo-name:hover{
+color: #000000;
+transform: scaleX(1.5);
+transform: scaleY(1.5);
+/* transform: scale(1.5); */
+transform: translate(5px, -5px);
+
+transition: all .6s linear;
+}
