@@ -8,6 +8,8 @@ body {
     overflow-x: hidden;
     height: auto;
     font-weight: 400;
+    margin: 0;
+    padding: 0;
     
 }
 a{
@@ -63,10 +65,61 @@ a{
 }
 .navbar-logo-name:hover{
 color: #000000;
-transform: scaleX(1.5);
-transform: scaleY(1.5);
-/* transform: scale(1.5); */
-transform: translate(5px, -5px);
-
+transform: translate(12px, 0px) scale(1.5);
 transition: all .6s linear;
 }
+.welcom-wrap {
+    width: 100%;
+    height: 532px;
+    padding: 62px 109px;
+    background: #EDF2EC;
+}
+.welcome {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.welcome-leafs {
+    
+}
+.welcome-content {
+    width: 549px;
+    height: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+ .welcome-content h1 {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 50px;
+    color: #717171;
+ }
+ 
+ .welcome-content p {
+    font-family: 'Inter';
+    font-size: 20px;
+    line-height: 35px;
+    color: #636060;
+ }
+ 
+ .welcome-content button {
+    border: 2px solid #E06733;
+    border-radius: 10px;
+    width: 158px;
+    height: 44px;
+
+    font-family: 'Inter';
+    line-height: 20px;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EDF2EC;
+    color: #000000;
+ }
+ 
+
