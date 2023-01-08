@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@400;700&display=swap');
 
+html {
+    scroll-behavior: smooth;
+    cursor :nw-resize;
+}
 body {
     position: relative;
     font-size: 16px;
@@ -32,6 +36,11 @@ time, mark, audio, video {
 a{
     text-decoration: none;
 }
+button:hover {
+    transform: scale(1.2);
+    transition: 0.7s;
+    
+}
 .navbar {
     width: 100%;
     height: 134px;
@@ -52,6 +61,11 @@ a{
 .navbar-menu li {
     display: inline-block;
     line-height: 50px;
+}
+.navbar-menu li:hover {
+    transform: scale(1.4);
+    transition: 0.7s;
+    
 }
 .navbar-menu li a{
     display: inline-block;
@@ -179,7 +193,7 @@ transition: all .6s linear;
 
 .service {
     padding: 40px 109px 121px 109px ;
-    width: auto;
+    width: 100%;
     height: 1300px;
     background: #EDF2EC;
 }
@@ -429,9 +443,28 @@ color: #000000;
     justify-content: space-between;
     padding-right: 13px;
 }
+.rs {
+    font-family: 'Inter';
+    font-size: 20px;
+    line-height: 50px;
+    color: #000000;
+}
+.rs:hover {
+    color: #000000;
+    transform: scale(1.4);
+    transition: 1s;
+}
 .social-list{
     width: 188px;
     display: flex;
     justify-content: space-between;
+}
+.social-list li:hover{
+    
+    transform: scale(1.5) rotate(360deg) ;
+    transition: 1.2s;
+}
+.social-list li {
+    list-style:none;
 }
  
