@@ -1,0 +1,142 @@
+body {
+    padding: 2rem;
+    max-width: 1024px;
+    min-width: 600px;
+    margin: 0 auto;
+    width: 100% ;
+}
+a { 
+    text-decoration: none;
+    color: #000000;
+}
+.main {
+    max-width: 1024px;
+    display: flex;
+    flex-direction:row;
+    border: black solid 1px;
+    
+}
+.left {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background: darkgray;
+}
+.photo_cv{
+    width: 100%;
+}
+
+.skills h2, .contacts h2{
+    margin: 24px 0px;
+}
+.skills__list li, .contacts li {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+}
+
+.underline {
+    width: 100%;
+    height: 1px;
+    margin: 8px 0px 16px;
+    background-color: #FFFFFFFF;
+}
+
+.left h2 {
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.skills__list {
+    list-style:inside;
+}
+
+.skills__list li::marker {
+    color: #000000;
+  }
+
+.right {
+    width: 70%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+
+    color: #4d4d4d;
+    background-color: white;
+}
+.hello h1 {
+    font-size: 32px;
+    margin: 24px 0;
+    font-weight: bold;
+}
+.hello h3 {
+    margin:22px 0;
+}
+.underkine__hello {
+    width: 100%;
+    height: 1px;
+    margin: 0px 0px 80px 0px;
+    background-color:#888888
+}
+.about, .education, .experience, .project {
+    margin-bottom: 48px;
+}
+.about__me {
+    line-height: 24px;
+    border-top: 1px solid #000000;
+    padding:10px;
+}
+.about h2,.education h2,.experience h2,.project h2 {
+    font-size: 24px;
+    margin: 20px 0px;
+    font-weight: bold;
+}
+.education {
+    width: 100%;
+}
+.description {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    line-height: 1.5;
+    border-top: solid grey 1px;
+}
+
+.strong {
+    font-weight: bold;
+}
+.description__item1 {
+    width: 35%;
+}
+.description__item2 {
+    width: 65%;
+}
+
+.experience_block {
+    border-top: solid grey 1px;
+    padding: 10px;
+}
+.project_item1 {
+    list-style: inside;
+    border-top: solid grey 1px;
+    padding: 10px;
+}
+.project_item1 li {
+    padding-left: 5px;
+}
+.nav_list {
+    display: flex;
+    flex-direction:row;
+    margin-top: 8rem;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav_list li a i.fab {
+ font-size: 45px;
+}
+.year{
+    font-size: 35px;
+}
